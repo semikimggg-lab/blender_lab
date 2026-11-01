@@ -1,0 +1,18 @@
+{
+  "labs": [
+    {
+      "id": "vacuum",
+      "title": "진공 시스템 실험실",
+      "description": "진공 챔버 구조와 부품 작동 원리 학습",
+      "url": "./index.html",
+      "thumbnail": ""
+    },
+    {
+      "id": "servo",
+      "title": "서보 튜닝 실험실",
+      "description": "서보모터 전자기어비와 게인 조작 실습",
+      "url": "./servo.html",
+      "thumbnail": "./models/servo-preview.png"
+    }
+  ]
+}
