@@ -1,0 +1,854 @@
+{
+  "stable": {
+    "actual_position_mm": 159.9999542236328,
+    "command_position_mm": 160.0,
+    "following_error_mm": 4.470348358154297e-05,
+    "actual_speed_rpm": 0.002682209014892578,
+    "travel_per_pulse_mm": 0.0010000000474974513,
+    "damping_ratio_demo": 1.0,
+    "requested_target_mm": 160.0
+  },
+  "double_egear": {
+    "actual_position_mm": 319.9999084472656,
+    "command_position_mm": 320.0,
+    "following_error_mm": 8.940696716308594e-05,
+    "actual_speed_rpm": 0.005364418029785156,
+    "travel_per_pulse_mm": 0.0020000000949949026,
+    "damping_ratio_demo": 1.0,
+    "requested_target_mm": 320.0
+  },
+  "ringing": [
+    {
+      "frame": 145,
+      "actual_position_mm": 157.98167419433594,
+      "command_position_mm": 160.0,
+      "following_error_mm": 2.018317699432373,
+      "actual_speed_rpm": -17.715856552124023,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 151,
+      "actual_position_mm": 158.22622680664062,
+      "command_position_mm": 160.0,
+      "following_error_mm": 1.7737746238708496,
+      "actual_speed_rpm": 22.930519104003906,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 157,
+      "actual_position_mm": 160.41233825683594,
+      "command_position_mm": 160.0,
+      "following_error_mm": -0.41234493255615234,
+      "actual_speed_rpm": 35.10578155517578,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 163,
+      "actual_position_mm": 161.97451782226562,
+      "command_position_mm": 160.0,
+      "following_error_mm": -1.9745230674743652,
+      "actual_speed_rpm": 7.544065952301025,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 169,
+      "actual_position_mm": 161.2341766357422,
+      "command_position_mm": 160.0,
+      "following_error_mm": -1.2341737747192383,
+      "actual_speed_rpm": -26.23378562927246,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 175,
+      "actual_position_mm": 159.1866912841797,
+      "command_position_mm": 160.0,
+      "following_error_mm": 0.8133053779602051,
+      "actual_speed_rpm": -28.417625427246094,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 181,
+      "actual_position_mm": 158.1957550048828,
+      "command_position_mm": 160.0,
+      "following_error_mm": 1.804247498512268,
+      "actual_speed_rpm": 0.9754039645195007,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 187,
+      "actual_position_mm": 159.275146484375,
+      "command_position_mm": 160.0,
+      "following_error_mm": 0.7248520851135254,
+      "actual_speed_rpm": 27.028390884399414,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 193,
+      "actual_position_mm": 161.07264709472656,
+      "command_position_mm": 160.0,
+      "following_error_mm": -1.0726451873779297,
+      "actual_speed_rpm": 21.204086303710938,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 199,
+      "actual_position_mm": 161.5462646484375,
+      "command_position_mm": 160.0,
+      "following_error_mm": -1.5462636947631836,
+      "actual_speed_rpm": -7.607405662536621,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 205,
+      "actual_position_mm": 160.2744598388672,
+      "command_position_mm": 160.0,
+      "following_error_mm": -0.27446448802948,
+      "actual_speed_rpm": -25.794052124023438,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 211,
+      "actual_position_mm": 158.7971954345703,
+      "command_position_mm": 160.0,
+      "following_error_mm": 1.202806830406189,
+      "actual_speed_rpm": -14.072492599487305,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 217,
+      "actual_position_mm": 158.76292419433594,
+      "command_position_mm": 160.0,
+      "following_error_mm": 1.2370795011520386,
+      "actual_speed_rpm": 12.300883293151855,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 223,
+      "actual_position_mm": 160.09861755371094,
+      "command_position_mm": 160.0,
+      "following_error_mm": -0.09861588478088379,
+      "actual_speed_rpm": 23.049495697021484,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 229,
+      "actual_position_mm": 161.22250366210938,
+      "command_position_mm": 160.0,
+      "following_error_mm": -1.2225061655044556,
+      "actual_speed_rpm": 7.496276378631592,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 235,
+      "actual_position_mm": 160.9087677001953,
+      "command_position_mm": 160.0,
+      "following_error_mm": -0.908777117729187,
+      "actual_speed_rpm": -15.14600658416748,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 241,
+      "actual_position_mm": 159.61477661132812,
+      "command_position_mm": 160.0,
+      "following_error_mm": 0.3852248191833496,
+      "actual_speed_rpm": -19.305686950683594,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 247,
+      "actual_position_mm": 158.84608459472656,
+      "command_position_mm": 160.0,
+      "following_error_mm": 1.1539161205291748,
+      "actual_speed_rpm": -1.8083891868591309,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 253,
+      "actual_position_mm": 159.41188049316406,
+      "command_position_mm": 160.0,
+      "following_error_mm": 0.5881190299987793,
+      "actual_speed_rpm": 16.34154510498047,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 259,
+      "actual_position_mm": 160.5841522216797,
+      "command_position_mm": 160.0,
+      "following_error_mm": -0.5841553211212158,
+      "actual_speed_rpm": 15.033729553222656,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 265,
+      "actual_position_mm": 161.02059936523438,
+      "command_position_mm": 160.0,
+      "following_error_mm": -1.0206103324890137,
+      "actual_speed_rpm": -2.7894814014434814,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 271,
+      "actual_position_mm": 160.29541015625,
+      "command_position_mm": 160.0,
+      "following_error_mm": -0.2954155206680298,
+      "actual_speed_rpm": -16.157546997070312,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 277,
+      "actual_position_mm": 159.29954528808594,
+      "command_position_mm": 160.0,
+      "following_error_mm": 0.7004439830780029,
+      "actual_speed_rpm": -10.639273643493652,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 283,
+      "actual_position_mm": 159.15444946289062,
+      "command_position_mm": 160.0,
+      "following_error_mm": 0.8455514907836914,
+      "actual_speed_rpm": 6.2140679359436035,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 289,
+      "actual_position_mm": 159.9550323486328,
+      "command_position_mm": 160.0,
+      "following_error_mm": 0.04495680332183838,
+      "actual_speed_rpm": 14.903005599975586,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 295,
+      "actual_position_mm": 160.7437286376953,
+      "command_position_mm": 160.0,
+      "following_error_mm": -0.7437318563461304,
+      "actual_speed_rpm": 6.452206134796143,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 301,
+      "actual_position_mm": 160.64974975585938,
+      "command_position_mm": 160.0,
+      "following_error_mm": -0.6497502326965332,
+      "actual_speed_rpm": -8.479129791259766,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 307,
+      "actual_position_mm": 159.84483337402344,
+      "command_position_mm": 160.0,
+      "following_error_mm": 0.15516579151153564,
+      "actual_speed_rpm": -12.89021110534668,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 313,
+      "actual_position_mm": 159.27340698242188,
+      "command_position_mm": 160.0,
+      "following_error_mm": 0.7265955209732056,
+      "actual_speed_rpm": -2.7149765491485596,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 319,
+      "actual_position_mm": 159.5489501953125,
+      "command_position_mm": 160.0,
+      "following_error_mm": 0.4510432481765747,
+      "actual_speed_rpm": 9.678038597106934,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 325,
+      "actual_position_mm": 160.30181884765625,
+      "command_position_mm": 160.0,
+      "following_error_mm": -0.3018230199813843,
+      "actual_speed_rpm": 10.421356201171875,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 331,
+      "actual_position_mm": 160.66319274902344,
+      "command_position_mm": 160.0,
+      "following_error_mm": -0.6631910800933838,
+      "actual_speed_rpm": -0.4102703034877777,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 337,
+      "actual_position_mm": 160.2637481689453,
+      "command_position_mm": 160.0,
+      "following_error_mm": -0.2637505531311035,
+      "actual_speed_rpm": -9.955009460449219,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 343,
+      "actual_position_mm": 159.6035614013672,
+      "command_position_mm": 160.0,
+      "following_error_mm": 0.39643049240112305,
+      "actual_speed_rpm": -7.762203693389893,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 349,
+      "actual_position_mm": 159.43235778808594,
+      "command_position_mm": 160.0,
+      "following_error_mm": 0.5676448345184326,
+      "actual_speed_rpm": 2.8403127193450928,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 355,
+      "actual_position_mm": 159.90162658691406,
+      "command_position_mm": 160.0,
+      "following_error_mm": 0.09836256504058838,
+      "actual_speed_rpm": 9.488251686096191,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.0353553369641304,
+      "requested_target_mm": 160.0
+    }
+  ],
+  "hunting": [
+    {
+      "frame": 270,
+      "actual_position_mm": 162.55255126953125,
+      "command_position_mm": 160.0,
+      "following_error_mm": -2.552554130554199,
+      "actual_speed_rpm": 152.0546112060547,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 272,
+      "actual_position_mm": 161.6094512939453,
+      "command_position_mm": 160.0,
+      "following_error_mm": -1.6094595193862915,
+      "actual_speed_rpm": -199.54820251464844,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 274,
+      "actual_position_mm": 157.11097717285156,
+      "command_position_mm": 160.0,
+      "following_error_mm": 2.8890223503112793,
+      "actual_speed_rpm": -110.33747100830078,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 276,
+      "actual_position_mm": 158.9945068359375,
+      "command_position_mm": 160.0,
+      "following_error_mm": 1.0054856538772583,
+      "actual_speed_rpm": 222.6152801513672,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 278,
+      "actual_position_mm": 163.09921264648438,
+      "command_position_mm": 160.0,
+      "following_error_mm": -3.0992178916931152,
+      "actual_speed_rpm": 63.798606872558594,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 280,
+      "actual_position_mm": 160.35757446289062,
+      "command_position_mm": 160.0,
+      "following_error_mm": -0.3575831651687622,
+      "actual_speed_rpm": -235.95240783691406,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 282,
+      "actual_position_mm": 156.82601928710938,
+      "command_position_mm": 160.0,
+      "following_error_mm": 3.1739771366119385,
+      "actual_speed_rpm": -14.472049713134766,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 284,
+      "actual_position_mm": 160.3059539794922,
+      "command_position_mm": 160.0,
+      "following_error_mm": -0.3059506416320801,
+      "actual_speed_rpm": 238.97833251953125,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 286,
+      "actual_position_mm": 163.10997009277344,
+      "command_position_mm": 160.0,
+      "following_error_mm": -3.1099767684936523,
+      "actual_speed_rpm": -35.495723724365234,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 288,
+      "actual_position_mm": 159.04388427734375,
+      "command_position_mm": 160.0,
+      "following_error_mm": 0.956118106842041,
+      "actual_speed_rpm": -231.559814453125,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 290,
+      "actual_position_mm": 157.08985900878906,
+      "command_position_mm": 160.0,
+      "following_error_mm": 2.910137176513672,
+      "actual_speed_rpm": 83.89751434326172,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 292,
+      "actual_position_mm": 161.5644989013672,
+      "command_position_mm": 160.0,
+      "following_error_mm": -1.5645027160644531,
+      "actual_speed_rpm": 214.0205078125,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 294,
+      "actual_position_mm": 162.5830535888672,
+      "command_position_mm": 160.0,
+      "following_error_mm": -2.583056688308716,
+      "actual_speed_rpm": -128.6402587890625,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 296,
+      "actual_position_mm": 157.89547729492188,
+      "command_position_mm": 160.0,
+      "following_error_mm": 2.104520797729492,
+      "actual_speed_rpm": -187.12765502929688,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 298,
+      "actual_position_mm": 157.85690307617188,
+      "command_position_mm": 160.0,
+      "following_error_mm": 2.143099784851074,
+      "actual_speed_rpm": 167.76007080078125,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 300,
+      "actual_position_mm": 162.55255126953125,
+      "command_position_mm": 160.0,
+      "following_error_mm": -2.552554130554199,
+      "actual_speed_rpm": 152.05569458007812,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 302,
+      "actual_position_mm": 161.60946655273438,
+      "command_position_mm": 160.0,
+      "following_error_mm": -1.6094744205474854,
+      "actual_speed_rpm": -199.549072265625,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 304,
+      "actual_position_mm": 157.1109619140625,
+      "command_position_mm": 160.0,
+      "following_error_mm": 2.8890371322631836,
+      "actual_speed_rpm": -110.33827209472656,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 306,
+      "actual_position_mm": 158.99449157714844,
+      "command_position_mm": 160.0,
+      "following_error_mm": 1.0055005550384521,
+      "actual_speed_rpm": 222.6161346435547,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 308,
+      "actual_position_mm": 163.09922790527344,
+      "command_position_mm": 160.0,
+      "following_error_mm": -3.0992329120635986,
+      "actual_speed_rpm": 63.7987174987793,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 310,
+      "actual_position_mm": 160.35755920410156,
+      "command_position_mm": 160.0,
+      "following_error_mm": -0.35756826400756836,
+      "actual_speed_rpm": -235.9528350830078,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 312,
+      "actual_position_mm": 156.82601928710938,
+      "command_position_mm": 160.0,
+      "following_error_mm": 3.1739771366119385,
+      "actual_speed_rpm": -14.471329689025879,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 314,
+      "actual_position_mm": 160.3059539794922,
+      "command_position_mm": 160.0,
+      "following_error_mm": -0.3059506416320801,
+      "actual_speed_rpm": 238.97769165039062,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 316,
+      "actual_position_mm": 163.10997009277344,
+      "command_position_mm": 160.0,
+      "following_error_mm": -3.1099767684936523,
+      "actual_speed_rpm": -35.49483108520508,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 318,
+      "actual_position_mm": 159.04388427734375,
+      "command_position_mm": 160.0,
+      "following_error_mm": 0.956118106842041,
+      "actual_speed_rpm": -231.55929565429688,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 320,
+      "actual_position_mm": 157.08985900878906,
+      "command_position_mm": 160.0,
+      "following_error_mm": 2.910137176513672,
+      "actual_speed_rpm": 83.89777374267578,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 322,
+      "actual_position_mm": 161.5644989013672,
+      "command_position_mm": 160.0,
+      "following_error_mm": -1.5645027160644531,
+      "actual_speed_rpm": 214.0209197998047,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 324,
+      "actual_position_mm": 162.58306884765625,
+      "command_position_mm": 160.0,
+      "following_error_mm": -2.583071708679199,
+      "actual_speed_rpm": -128.6396026611328,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 326,
+      "actual_position_mm": 157.89547729492188,
+      "command_position_mm": 160.0,
+      "following_error_mm": 2.104520797729492,
+      "actual_speed_rpm": -187.1282501220703,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 328,
+      "actual_position_mm": 157.8568878173828,
+      "command_position_mm": 160.0,
+      "following_error_mm": 2.1431148052215576,
+      "actual_speed_rpm": 167.760009765625,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 330,
+      "actual_position_mm": 162.55255126953125,
+      "command_position_mm": 160.0,
+      "following_error_mm": -2.552554130554199,
+      "actual_speed_rpm": 152.05638122558594,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 332,
+      "actual_position_mm": 161.60948181152344,
+      "command_position_mm": 160.0,
+      "following_error_mm": -1.6094893217086792,
+      "actual_speed_rpm": -199.54879760742188,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 334,
+      "actual_position_mm": 157.1109619140625,
+      "command_position_mm": 160.0,
+      "following_error_mm": 2.8890371322631836,
+      "actual_speed_rpm": -110.33830261230469,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 336,
+      "actual_position_mm": 158.99449157714844,
+      "command_position_mm": 160.0,
+      "following_error_mm": 1.0055005550384521,
+      "actual_speed_rpm": 222.61585998535156,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 338,
+      "actual_position_mm": 163.09922790527344,
+      "command_position_mm": 160.0,
+      "following_error_mm": -3.0992329120635986,
+      "actual_speed_rpm": 63.79956817626953,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 340,
+      "actual_position_mm": 160.35757446289062,
+      "command_position_mm": 160.0,
+      "following_error_mm": -0.3575831651687622,
+      "actual_speed_rpm": -235.9530487060547,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 342,
+      "actual_position_mm": 156.8260040283203,
+      "command_position_mm": 160.0,
+      "following_error_mm": 3.173992156982422,
+      "actual_speed_rpm": -14.471941947937012,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 344,
+      "actual_position_mm": 160.3059539794922,
+      "command_position_mm": 160.0,
+      "following_error_mm": -0.3059506416320801,
+      "actual_speed_rpm": 238.9793701171875,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 346,
+      "actual_position_mm": 163.10995483398438,
+      "command_position_mm": 160.0,
+      "following_error_mm": -3.109961748123169,
+      "actual_speed_rpm": -35.49635314941406,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 348,
+      "actual_position_mm": 159.0438690185547,
+      "command_position_mm": 160.0,
+      "following_error_mm": 0.9561330080032349,
+      "actual_speed_rpm": -231.55995178222656,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 350,
+      "actual_position_mm": 157.08985900878906,
+      "command_position_mm": 160.0,
+      "following_error_mm": 2.910137176513672,
+      "actual_speed_rpm": 83.8978042602539,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 352,
+      "actual_position_mm": 161.5644989013672,
+      "command_position_mm": 160.0,
+      "following_error_mm": -1.5645027160644531,
+      "actual_speed_rpm": 214.0208740234375,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 354,
+      "actual_position_mm": 162.58306884765625,
+      "command_position_mm": 160.0,
+      "following_error_mm": -2.583071708679199,
+      "actual_speed_rpm": -128.6396026611328,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 356,
+      "actual_position_mm": 157.8954620361328,
+      "command_position_mm": 160.0,
+      "following_error_mm": 2.1045355796813965,
+      "actual_speed_rpm": -187.12770080566406,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 358,
+      "actual_position_mm": 157.85690307617188,
+      "command_position_mm": 160.0,
+      "following_error_mm": 2.143099784851074,
+      "actual_speed_rpm": 167.76072692871094,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    },
+    {
+      "frame": 360,
+      "actual_position_mm": 162.5525665283203,
+      "command_position_mm": 160.0,
+      "following_error_mm": -2.5525689125061035,
+      "actual_speed_rpm": 152.05569458007812,
+      "travel_per_pulse_mm": 0.0010000000474974513,
+      "damping_ratio_demo": 0.15811388194561005,
+      "requested_target_mm": 160.0
+    }
+  ],
+  "parameters": {
+    "rpm": 200,
+    "accel": 0.8,
+    "length": 560,
+    "lead": 20,
+    "pulses": 160000,
+    "numerator": 1048576,
+    "denominator": 20000,
+    "encoder": 1048576
+  }
+}

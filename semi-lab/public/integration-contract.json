@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "1.0",
+  "status": "design-only-server-not-implemented",
+  "equipmentId": "vacuum-example-01",
+  "units": "mm",
+  "partIds": [
+    "chamber",
+    "lid",
+    "stage",
+    "pump",
+    "valve",
+    "control"
+  ],
+  "hierarchy": {
+    "load": [
+      "valve"
+    ],
+    "function": [
+      "chamber",
+      "lid",
+      "stage",
+      "pump"
+    ],
+    "unload": [
+      "control"
+    ]
+  },
+  "browserParameters": {
+    "diameter": {
+      "min": 400,
+      "max": 800,
+      "step": 10
+    },
+    "height": {
+      "min": 300,
+      "max": 700,
+      "step": 10
+    },
+    "explosion": {
+      "min": 0,
+      "max": 100
+    }
+  },
+  "futureRegeneration": {
+    "method": "POST",
+    "path": "/api/model-jobs",
+    "request": {
+      "equipmentId": "vacuum-example-01",
+      "modelVersion": "required",
+      "parameters": {
+        "diameter": 600,
+        "height": 500
+      }
+    },
+    "response": {
+      "jobId": "opaque-id",
+      "status": "queued"
+    },
+    "poll": "GET /api/model-jobs/:jobId",
+    "result": {
+      "status": "succeeded",
+      "modelUrl": "versioned.glb",
+      "partMapUrl": "versioned.parts.json"
+    },
+    "requirements": [
+      "authentication",
+      "parameter allowlist and bounds validation",
+      "isolated Blender worker",
+      "stable part IDs",
+      "timeout and job error handling",
+      "GLB export and version storage"
+    ]
+  },
+  "sourceAsset": {
+    "format": ".blend",
+    "authority": "source-of-truth",
+    "processing": "private admin/server only; no upload or conversion server implemented",
+    "requiredMetadata": [
+      "equipmentId",
+      "sourceVersion",
+      "sha256",
+      "blenderVersion",
+      "exporterVersion",
+      "partId custom properties"
+    ]
+  },
+  "derivedAsset": {
+    "format": ".glb",
+    "purpose": "browser display",
+    "geometryNodes": "evaluated in Blender; not executed by GLB",
+    "partMapping": "export custom properties as extras and validate stable partId in sidecar map",
+    "imageRendering": "separate image output, not a GLB export",
+    "compatibilityReview": [
+      "evaluated geometry",
+      "units and axes",
+      "normals and topology",
+      "supported glTF materials and texture baking if needed",
+      "part IDs and exported mesh splitting"
+    ]
+  },
+  "officialReference": "https://docs.blender.org/manual/en/3.3/addons/import_export/scene_gltf2.html"
+}

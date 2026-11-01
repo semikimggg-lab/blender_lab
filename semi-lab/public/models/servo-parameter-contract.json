@@ -1,0 +1,101 @@
+{
+  "schema": "semi-lab-servo-v1",
+  "source": "servo_egear_gain_response.blend",
+  "nodeGroup": "SEMI LAB | Servo Drive Parametric",
+  "mode": "browser-equivalent-preview",
+  "note": "GLB does not execute Geometry Nodes. This browser uses matching equations and adjustable geometry. Blender re-evaluation is separate.",
+  "defaults": {
+    "pulseMode": true,
+    "pulses": 160000,
+    "numerator": 1048576,
+    "denominator": 20000,
+    "encoder": 1048576,
+    "target": 160,
+    "rpm": 120,
+    "accel": 0.8,
+    "length": 560,
+    "lead": 20,
+    "kp": 20,
+    "kv": 80,
+    "ripple": 0,
+    "frequency": 4
+  },
+  "limits": {
+    "pulses": [
+      0,
+      2000000
+    ],
+    "numerator": [
+      1,
+      16777216
+    ],
+    "denominator": [
+      1,
+      16777216
+    ],
+    "encoder": [
+      1000,
+      16777216
+    ],
+    "target": [
+      0,
+      500
+    ],
+    "rpm": [
+      1,
+      1000
+    ],
+    "accel": [
+      0.05,
+      5
+    ],
+    "length": [
+      400,
+      800
+    ],
+    "lead": [
+      5,
+      40
+    ],
+    "kp": [
+      1,
+      80
+    ],
+    "kv": [
+      0.2,
+      160
+    ],
+    "ripple": [
+      0,
+      2000
+    ],
+    "frequency": [
+      0.2,
+      30
+    ]
+  },
+  "sockets": {
+    "pulseMode": "Socket_16",
+    "pulses": "Socket_17",
+    "numerator": "Socket_18",
+    "denominator": "Socket_19",
+    "encoder": "Socket_20",
+    "target": "Socket_4",
+    "rpm": "Socket_5",
+    "accel": "Socket_6",
+    "length": "Socket_7",
+    "lead": "Socket_8",
+    "kp": "Socket_21",
+    "kv": "Socket_22",
+    "ripple": "Socket_23",
+    "frequency": "Socket_24"
+  },
+  "solver": {
+    "rate": 240,
+    "method": "semi-implicit-euler",
+    "maxAcceleration": 5,
+    "previewLimitSeconds": 60,
+    "mechanicalRatio": 1
+  },
+  "electronicGearFormula": "travel_mm = pulses * numerator / denominator / encoder * lead_mm"
+}
