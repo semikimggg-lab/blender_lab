@@ -57,4 +57,4 @@ const mini=document.createElement('canvas');mini.id='equipment-preview';mini.set
 
 import('./library-editor.js').then(({initLibraryEditor})=>initLibraryEditor()).catch(()=>{});
 
-const servoCard=document.createElement('a');servoCard.className='equipment servo-card';servoCard.href='/servo';servoCard.innerHTML='<img src="/models/servo-preview.png" alt="Blender 서보 모터와 드라이버 모델"><span>04 / SERVO DRIVE</span><b>서보 튜닝 실험실</b><small>전자 기어비 · 게인 · 반응형 모델 ↗</small>';document.querySelector('.equipment-cards').append(servoCard);
+const servoCard=document.createElement('a');servoCard.className='equipment servo-card';servoCard.href='./servo.html';servoCard.innerHTML='<img src="./models/servo-preview.png" alt="Blender 서보 모터와 드라이버 모델"><span>04 / SERVO DRIVE</span><b>서보 튜닝 실험실</b><small>전자 기어비 · 게인 · 반응형 모델 ↗</small>';document.querySelector('.equipment-cards').append(servoCard);
