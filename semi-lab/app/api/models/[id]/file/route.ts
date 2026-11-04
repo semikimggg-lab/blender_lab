@@ -1,0 +1,3 @@
+import {bucket,modelRow,json} from '../../../../../lib/model-storage';
+export const dynamic='force-dynamic';
+export async function GET(_request:Request,context:{params:Promise<{id:string}>}){try{const {id}=await context.params,row=await modelRow(id);if(!row)return json({error:'not_found'},404);const object=await bucket().get(row.object_key);if(!object)return json({error:'not_found'},404);return new Response(object.body,{headers:{'Content-Type':'model/gltf-binary','Content-Length':String(object.size),'Cache-Control':'private, max-age=3600','X-Content-Type-Options':'nosniff'}});}catch{return json({error:'storage_unavailable'},503);}}

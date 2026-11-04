@@ -1,5 +1,176 @@
 {
- "ko":{"library.title":"설비 라이브러리","library.subtitle":"설비를 선택해 학습을 시작하세요","vacuum-example-01.name":"진공 공정 장비","vacuum-example-01.description":"예제 모델 · 탐색 가능 ↗","vacuum-example-01.eyebrow":"01 / VACUUM","transfer-planned.name":"웨이퍼 이송 장비","transfer-planned.description":"준비 중 · 모델 미연결","transfer-planned.eyebrow":"02 / TRANSFER","wet-planned.name":"습식 세정 장비","wet-planned.description":"준비 중 · 모델 미연결","wet-planned.eyebrow":"03 / WET PROCESS"},
- "en":{"library.title":"Equipment library","library.subtitle":"Choose equipment to begin","vacuum-example-01.name":"Vacuum process system","vacuum-example-01.description":"Example model · Explore ↗","vacuum-example-01.eyebrow":"01 / VACUUM","transfer-planned.name":"Wafer transfer system","transfer-planned.description":"Coming soon · No model connected","transfer-planned.eyebrow":"02 / TRANSFER","wet-planned.name":"Wet cleaning system","wet-planned.description":"Coming soon · No model connected","wet-planned.eyebrow":"03 / WET PROCESS"},
- "zh":{"library.title":"设备库","library.subtitle":"选择设备开始学习","vacuum-example-01.name":"真空工艺设备","vacuum-example-01.description":"示例模型 · 开始探索 ↗","vacuum-example-01.eyebrow":"01 / VACUUM","transfer-planned.name":"晶圆传输设备","transfer-planned.description":"准备中 · 尚未连接模型","transfer-planned.eyebrow":"02 / TRANSFER","wet-planned.name":"湿法清洗设备","wet-planned.description":"准备中 · 尚未连接模型","wet-planned.eyebrow":"03 / WET PROCESS"}
+  "ko": {
+    "schema": 2,
+    "library.title": "설비 라이브러리",
+    "library.subtitle": "설비를 선택해 학습을 시작하세요",
+    "brand": "SEMI LAB",
+    "home.title": "장비를 열고, 원리를 발견하세요.",
+    "home.subtitle": "전체 설비에서 작은 부품까지. 직접 조작하며 연결된 원리를 이해합니다.",
+    "servo.title": "설정이 움직임이 되는 순간.",
+    "servo.subtitle": "전자 기어비와 게인을 바꾸고, 지령과 실제 응답을 비교하세요.",
+    "navigation": [
+      {
+        "id": "library",
+        "name": "설비 라이브러리",
+        "href": "/library#catalog",
+        "visible": true
+      },
+      {
+        "id": "servo",
+        "name": "서보 실습",
+        "href": "/servo",
+        "visible": true
+      }
+    ],
+    "equipment": [
+      {
+        "id": "vacuum-example-01",
+        "name": "진공 공정 장비",
+        "description": "예제 모델 · 탐색 가능 ↗",
+        "eyebrow": "01 / VACUUM",
+        "href": "/library#explorer",
+        "visible": true
+      },
+      {
+        "id": "transfer-planned",
+        "name": "웨이퍼 이송 장비",
+        "description": "준비 중 · 모델 미연결",
+        "eyebrow": "02 / TRANSFER",
+        "href": "",
+        "visible": true
+      },
+      {
+        "id": "wet-planned",
+        "name": "습식 세정 장비",
+        "description": "준비 중 · 모델 미연결",
+        "eyebrow": "03 / WET PROCESS",
+        "href": "",
+        "visible": true
+      },
+      {
+        "id": "servo",
+        "name": "서보 튜닝 실험실",
+        "description": "전자 기어비 · 게인 · 반응형 모델 ↗",
+        "eyebrow": "04 / SERVO DRIVE",
+        "href": "/servo",
+        "visible": true
+      }
+    ]
+  },
+  "en": {
+    "schema": 2,
+    "library.title": "Equipment library",
+    "library.subtitle": "Choose equipment to begin",
+    "brand": "SEMI LAB",
+    "home.title": "Open equipment. Discover the principles.",
+    "home.subtitle": "Explore equipment and components through interaction.",
+    "servo.title": "Turn settings into motion.",
+    "servo.subtitle": "Adjust electronic gearing and gains, then compare command and response.",
+    "navigation": [
+      {
+        "id": "library",
+        "name": "Equipment library",
+        "href": "/library#catalog",
+        "visible": true
+      },
+      {
+        "id": "servo",
+        "name": "Servo lab",
+        "href": "/servo",
+        "visible": true
+      }
+    ],
+    "equipment": [
+      {
+        "id": "vacuum-example-01",
+        "name": "Vacuum process system",
+        "description": "Example model · Explore ↗",
+        "eyebrow": "01 / VACUUM",
+        "href": "/library#explorer",
+        "visible": true
+      },
+      {
+        "id": "transfer-planned",
+        "name": "Wafer transfer system",
+        "description": "Coming soon · No model connected",
+        "eyebrow": "02 / TRANSFER",
+        "href": "",
+        "visible": true
+      },
+      {
+        "id": "wet-planned",
+        "name": "Wet cleaning system",
+        "description": "Coming soon · No model connected",
+        "eyebrow": "03 / WET PROCESS",
+        "href": "",
+        "visible": true
+      },
+      {
+        "id": "servo",
+        "name": "Servo tuning lab",
+        "description": "Electronic gearing · Gains · Interactive model ↗",
+        "eyebrow": "04 / SERVO DRIVE",
+        "href": "/servo",
+        "visible": true
+      }
+    ]
+  },
+  "zh": {
+    "schema": 2,
+    "library.title": "设备库",
+    "library.subtitle": "选择设备开始学习",
+    "brand": "SEMI LAB",
+    "home.title": "打开设备，探索原理。",
+    "home.subtitle": "通过交互操作了解设备和部件的工作原理。",
+    "servo.title": "让设置变成运动。",
+    "servo.subtitle": "调整电子齿轮比和增益，比较指令与实际响应。",
+    "navigation": [
+      {
+        "id": "library",
+        "name": "设备库",
+        "href": "/library#catalog",
+        "visible": true
+      },
+      {
+        "id": "servo",
+        "name": "伺服实验",
+        "href": "/servo",
+        "visible": true
+      }
+    ],
+    "equipment": [
+      {
+        "id": "vacuum-example-01",
+        "name": "真空工艺设备",
+        "description": "示例模型 · 开始探索 ↗",
+        "eyebrow": "01 / VACUUM",
+        "href": "/library#explorer",
+        "visible": true
+      },
+      {
+        "id": "transfer-planned",
+        "name": "晶圆传输设备",
+        "description": "准备中 · 尚未连接模型",
+        "eyebrow": "02 / TRANSFER",
+        "href": "",
+        "visible": true
+      },
+      {
+        "id": "wet-planned",
+        "name": "湿法清洗设备",
+        "description": "准备中 · 尚未连接模型",
+        "eyebrow": "03 / WET PROCESS",
+        "href": "",
+        "visible": true
+      },
+      {
+        "id": "servo",
+        "name": "伺服调试实验室",
+        "description": "电子齿轮比 · 增益 · 交互模型 ↗",
+        "eyebrow": "04 / SERVO DRIVE",
+        "href": "/servo",
+        "visible": true
+      }
+    ]
+  }
 }

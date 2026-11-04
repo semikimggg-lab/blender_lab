@@ -1,0 +1,6 @@
+import {modelDB,modelAdmin,authorized,readBody,json} from '../../../../lib/model-storage';
+import {validId} from '../../../../lib/model-organizing.mjs';
+export const dynamic='force-dynamic';
+export async function GET(){try{if(!await modelAdmin())return json({error:'forbidden'},403);const {results}=await modelDB().prepare('SELECT id,title,version,deleted_at FROM model_assets WHERE deleted_at IS NOT NULL ORDER BY deleted_at DESC LIMIT 1000').all();return json({models:results});}catch{return json({error:'storage_unavailable'},503);}}
+export async function PUT(request:Request){try{if(!await authorized(request))return json({error:'forbidden'},403);let data;try{data=JSON.parse(new TextDecoder().decode(await readBody(request,4096)));if(!validId(data.id)||!Number.isSafeInteger(data.version))throw Error();}catch{return json({error:'invalid_payload'},400);}
+ const result=await modelDB().prepare('UPDATE model_assets SET deleted_at=NULL,updated_at=?,version=version+1 WHERE id=? AND version=? AND deleted_at IS NOT NULL RETURNING id').bind(new Date().toISOString(),data.id,data.version).all();if(!result.results.length)return json({error:'version_conflict'},409);return json({id:data.id,restored:true});}catch{return json({error:'save_failed'},503);}}
