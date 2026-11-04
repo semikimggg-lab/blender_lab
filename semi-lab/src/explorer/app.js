@@ -1,3 +1,4 @@
+import {resolveNodeMap} from './node-map.js';
 import * as THREE from 'three';
 import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
 import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
@@ -34,8 +35,9 @@ async function display(data,meta,mode,id=null){
  const token=++loadToken;loading=true;updateAccess();$('#loading').hidden=false;$('#loading').textContent='GLB와 애니메이션을 불러오는 중…';
  try{
   const inspected=inspectGLB(data);const loaded=await new GLTFLoader().parseAsync(data,'');if(token!==loadToken)return;
+  const resolvedMap=await resolveNodeMap(loaded,inspected.nodes);if(token!==loadToken)return;
   disposeModel();raw=data;gltf=loaded;root=gltf.scene;scene.add(root);source=mode;modelId=id;modelFolderId=meta?.folderId??null;version=meta?.version||0;manifest=meta||{...inspected,parts:inspected.nodes.map(n=>({node:n.index,name:n.name,description:n.description,url:n.url}))};title=meta?.title||'내 Blender 모델';dirty=false;selected=null;
-  root.traverse(node=>{const association=gltf.parser.associations.get(node);if(association?.nodes!==undefined&&!objectMap.has(association.nodes))objectMap.set(association.nodes,node);});
+  objectMap=resolvedMap;
   selectionAppearance=createSelectionAppearance(root);expandedFolders=new Set();searchClosedFolders=new Set();hierarchy=makeHierarchy(manifest.nodes,manifest.parts);
   root.updateMatrixWorld(true);const bounds=new THREE.Box3().setFromObject(root);scale=Math.max(bounds.getSize(new THREE.Vector3()).length(),.01);bounds.getCenter(modelCenter);
   const nodes=manifest.nodes,byIndex=new Map(nodes.map(n=>[n.index,n]));let grouping=nodes.filter(n=>n.partId);
